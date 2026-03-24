@@ -1,0 +1,128 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+
+}
+
+.Header{
+  height: 60px;
+  background-color: #262626;
+  justify-content: space-between;
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  margin-bottom: 20px;
+}
+
+.header1{
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display:flex;
+}
+
+.h2{
+  font-weight: bold;
+  font-size: 70px;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.h3{
+  font-weight: bold;
+  font-size: 70px;
+  text-align: left;
+  justify-content: right;
+  padding-right: 40px;
+}
+
+.h4{
+  font-weight: bold;
+  font-size: 50px;
+  text-align: left;
+  justify-content: right;
+}
+
+.box-wrapper{
+   display: flex;
+    flex-direction: column; /* Horizontal alignment */
+    width: 100%;
+    height: 1000px;       /* Fills the whole screen height */
+    padding-top: 60px;
+}
+
+.black-box, .white-box{
+  flex: 1; 
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 20px;
+    
+    
+}
+
+.black-box{
+  background-color: #25343F; 
+  justify-content: left;
+  color: white; 
+  text-align: center;
+  padding-left: 50px;
+}
+
+.white-box{
+  background-color: #E2E8CE;   
+  justify-content: right;
+  padding-left: 50px;
+  color: black;
+  text-align: center;
+}
+
+.p{
+  font-size: 25px;
+}
+
+.p1{
+  font-size: 15px;
+  padding: 40px;
+}
+
+.p2{
+ text-align: left;
+ justify-content: left;
+  padding: 40px;
+
+}
+
+.p4{
+  color: white;
+  display: flex;
+  font-size: 15px;
+}
+
+.calculator{
+  width: 300px;
+  height: 300px;
+}
+
+.cooking{
+ object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.technology{
+   object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
